@@ -44,3 +44,7 @@ gem 'simple_form'
 # Photo upload
 gem 'carrierwave'
 
+# Backend
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+
