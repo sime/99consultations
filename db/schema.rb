@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141001091925) do
+ActiveRecord::Schema.define(version: 20141001095818) do
 
   create_table "consultations", force: true do |t|
     t.text     "customer"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20141001091925) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "floor_plan"
+    t.text     "state",                   default: "Open"
   end
 
 end

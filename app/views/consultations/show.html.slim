@@ -1,6 +1,9 @@
 p#notice = notice
 
 p
+  strong State:
+  = @consultation.state
+p
   strong Customer:
   = @consultation.customer
 p
@@ -22,6 +25,9 @@ p
   strong Must have:
   = @consultation.must_have
 p
+  strong Hates:
+  = @consultation.hate
+p
   strong Budget:
   = @consultation.budget
 p
@@ -30,6 +36,9 @@ p
 p
   strong Other:
   = @consultation.other
+p
+  strong Floor Plan:
+  img src=@consultation.floor_plan
 
 = link_to 'Edit', edit_consultation_path(@consultation)
 '|
