@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: MyText
+  pictures: MyText
+  style: MyText
+  colors_materials_fabric: MyText
+  furnish: MyText
+  occupants: MyText
+  must_have: MyText
+  budget: 1
+  when: 2014-10-01
+  other: MyText
+
+two:
+  customer: MyText
+  pictures: MyText
+  style: MyText
+  colors_materials_fabric: MyText
+  furnish: MyText
+  occupants: MyText
+  must_have: MyText
+  budget: 1
+  when: 2014-10-01
+  other: MyText

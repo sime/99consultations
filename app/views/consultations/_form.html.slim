@@ -1,0 +1,18 @@
+= simple_form_for(@consultation) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :customer, label: "Your name"
+    = f.input :pictures, label: "Which  of  these pictures  describes best  your  style?"
+    = f.input :style, label: "How would you describe  your  style?"
+    = f.input :colors_materials_fabric, label: "What  colors, materials and fabric  do  you especially  like?"
+    = f.input :furnish, label: "What  would you like  to  furnish? Which  rooms with  which furniture?"
+    = f.input :occupants, label: "Who will  live  in  the apartment/house?"
+    = f.input :must_have, label: "What  should  not be  missed  in  your  apartment?"
+    = f.input :hate, label: "What do  you hate  at  other apartments?"
+    = f.input :budget, label: "What is  your  budget?"
+    = f.input :when, label: "When do  you need  your  furniture?"
+    = f.input :other, label: "Any additional  information you would like  to  share with  us?"
+
+  .form-actions
+    = f.button :submit

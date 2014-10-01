@@ -1,0 +1,36 @@
+p#notice = notice
+
+p
+  strong Customer:
+  = @consultation.customer
+p
+  strong Pictures:
+  = @consultation.pictures
+p
+  strong Style:
+  = @consultation.style
+p
+  strong Colors materials fabric:
+  = @consultation.colors_materials_fabric
+p
+  strong Furnish:
+  = @consultation.furnish
+p
+  strong Occupants:
+  = @consultation.occupants
+p
+  strong Must have:
+  = @consultation.must_have
+p
+  strong Budget:
+  = @consultation.budget
+p
+  strong When:
+  = @consultation.when
+p
+  strong Other:
+  = @consultation.other
+
+= link_to 'Edit', edit_consultation_path(@consultation)
+'|
+= link_to 'Back', consultations_path
