@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141001090506) do
+ActiveRecord::Schema.define(version: 20141001091925) do
 
   create_table "consultations", force: true do |t|
     t.text     "customer"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20141001090506) do
     t.text     "other"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "floor_plan"
   end
 
 end

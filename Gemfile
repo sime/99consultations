@@ -40,3 +40,7 @@ gem 'spring',        group: :development
 
 gem 'slim-rails'
 gem 'simple_form'
+
+# Photo upload
+gem 'carrierwave'
+
