@@ -4,15 +4,8 @@ table
   thead
     tr
       th Customer
-      th Pictures
-      th Style
-      th Colors materials fabric
-      th Furnish
-      th Occupants
-      th Must have
-      th Budget
+      th State
       th When
-      th Other
       th
       th
       th
@@ -21,15 +14,8 @@ table
     - @consultations.each do |consultation|
       tr
         td = consultation.customer
-        td = consultation.pictures
-        td = consultation.style
-        td = consultation.colors_materials_fabric
-        td = consultation.furnish
-        td = consultation.occupants
-        td = consultation.must_have
-        td = consultation.budget
+        td = consultation.state
         td = consultation.when
-        td = consultation.other
         td = link_to 'Show', consultation
         td = link_to 'Edit', edit_consultation_path(consultation)
         td = link_to 'Destroy', consultation, data: {:confirm => 'Are you sure?'}, :method => :delete
